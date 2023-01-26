@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color :skyblue
+        }
+    </style>
+</head>
+<h1>
+     BIODATA
+</h1>
+<body>
+    <script>
+        var Nama = "Bowoo";
+         document.write("haloo Bowoo")
+
+        document.write("<hr />");
+
+
+         var tidakremed = "anda lulus";
+            var remed = "tidaklulus";
+            var kkm = 75;
+            var mtk = 90;
+            var bindo = 25;
+            var bing = 25;
+            var ipa = 25;
+            var bagi = 3;
+            var ratarata = (mtk + bindo + bing + ipa / bagi);
+           //document.write(ratarata);
+            document.write ("<br />");
+            if (ratarata > kkm){document.write(tidakremed)}else{document.write(remed)}
+           
+            document.write("<hr />");
+            document.write("<br />");
+
+            
+            function sapa_orang(nama){
+                document.write( nama)
+            }
+            sapa_orang("haloo Sopoo")
+
+
+
+
+
+
+
+
+            document.write("<hr />");
+
+            document.write("<br />");
+
+var mobil = {
+    nama_pemilik : "diqie",
+    Merek : "avanza veloz",
+    ban : 4,
+    kecepatan : 160,
+    warna : "merah",
+
+    Dinyalakan : function(){
+        return"mesin nyala"
+    },
+        Dimatikan : function(){
+            return"mesin mati"
+        }
+    }
+        document.write("nama mobilnya :"+ mobil.nama_pemilik + "<br />");
+        document.write("mereknya :"+ mobil.Merek + "<br />");
+        document.write("kecepatannya :"+ mobil.kecepatan + "<br />");
+        document.write("bannya :"+ mobil.ban + "<br />");
+        document.write("warnanya :"+ mobil.warna + "<br />");
+
+        document.write("Dinyalakan :"+ mobil.Dinyalakan ());
+        document.write("<br />");
+        document.write("Dinyalakan :"+ mobil.Dimatikan ());            
+    </script>
+</body>
+</html>
